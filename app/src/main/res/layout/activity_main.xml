@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/menu_icon"
+        android:layout_width="56dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/menu_icon"
+
+        />
+
+    <TextView
+        android:id="@+id/txt_limit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="30dp"
+        android:text="Limit"
+        android:textSize="40dp"
+        android:textColor="#e6e6e6"
+        />
+
+    <EditText
+        android:id="@+id/edt_txt_limit"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/edt_background"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txt_ttl_expenses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Your total expenses"
+        android:textColor="#e6e6e6"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@id/txt_ttl_expenses"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/edt_background"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/txt_enter_expenses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="65dp"
+        android:text="Enter expense"
+        android:textSize="20dp"
+        android:textColor="#e6e6e6"
+        />
+
+    <EditText
+        android:id="@+id/edt_txt_enter_expenses"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:background="@drawable/edt_background"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txt_purpose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="15dp"
+        android:text="Purpose"
+        android:textColor="#e6e6e6"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edt_txt_enter_purpose"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:background="@drawable/edt_background"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:text="Update"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="@color/white"
+        />
+
+
+</LinearLayout>

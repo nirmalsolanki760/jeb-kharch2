@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".sign_in">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="269dp"
+        android:background="#008162"
+        android:backgroundTint="#008162"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="141dp"
+            android:layout_height="137dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/logo_jeb_kharch" />
+
+        <TextView
+            android:id="@+id/txt_sigin"
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:text="Sign up"
+            android:textColor="@color/white"
+            android:textSize="35dp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint="Name"
+        android:paddingLeft="20sp"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:background="@drawable/edt_background"
+        />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint="Email"
+        android:paddingLeft="20sp"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:background="@drawable/edt_background"
+        />
+
+    <EditText
+        android:id="@+id/edt_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint="Password"
+        android:paddingLeft="20sp"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:background="@drawable/edt_background"
+        />
+
+    <EditText
+        android:id="@+id/edt_cpwd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:paddingLeft="20sp"
+        android:inputType="textPassword"
+        android:background="@drawable/edt_background"
+        />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/edt_background"
+        android:backgroundTint="#008162"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="Sign up" />
+</LinearLayout>
